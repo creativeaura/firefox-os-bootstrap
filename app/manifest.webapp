@@ -1,0 +1,27 @@
+{
+  "version": "1",
+  "name": "Firefox OS Bootstrap",
+  "launch_path": "index.html",
+  "description": "Bootstrap for FixfoxOS app project",
+  "icons": {
+    "16": "/images/logo16.png",
+    "32": "/images/logo32.png",
+    "48": "/images/logo48.png",
+    "64": "/images/logo64.png",
+    "128": "/images/logo128.png"
+  },
+  "developer": {
+    "name": "Gaurav",
+    "url": "http://gaurav.jassal.me"
+  },
+  "installs_allowed_from": ["*"],
+  "default_locale": "en",
+  "permissions": {
+    "desktop-notification": {
+      "description" : "To show notifications"
+    },
+    "geolocation": {
+      "description" : "Marking out user location"
+    }
+  }
+}
